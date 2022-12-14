@@ -1,7 +1,7 @@
 <template>
   <div>
     <a :href="href" target="_blank"
-      class="px-3 py-2 rounded border border-red-600 hover:bg-red-600 bg-red-500 text-white transition-colors">
+      class="px-3 py-2 rounded border border-orange-600 hover:bg-orange-600 bg-orange-500 text-white transition-colors ">
       <slot></slot>
     </a>
   </div>

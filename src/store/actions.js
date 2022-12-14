@@ -12,7 +12,7 @@ export function searchMealsByLetter({ commit }, letter) {
   axiosClient.get(`search.php?f=${letter}`)
     .then(({ data }) => {
       debugger;
-      commit('setmealsByLetter', data.meals)
+      commit('setMealsByLetter', data.meals)
     })
 }
 
